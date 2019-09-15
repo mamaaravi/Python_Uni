@@ -12,4 +12,4 @@ print("Sum = ", sum)
 
 from functools import reduce
 
-print(reduce(lambda a, x: a+x, [sin(x**i) for i in range(1, n+1)]))
+print(reduce(lambda a, y: a+y, [sin(x**i) for i in range(1, n+1)]))
