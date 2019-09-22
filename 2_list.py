@@ -5,6 +5,18 @@ seq=[int(input("Enter number: ")) for i in range(int(input("Enter length of sequ
 print("Your sequence:", seq)
 print("j = ", [j for j in range(1, len(seq)-1) if seq[j-1]<seq[j] and seq[j]<seq[j+1]])
 
+# OUTPUT SAMPLE:
 
-# 1 3 5 7 9 -1 0 3 10 11 len=10
-# 1 2 3 6 7 8
+# Enter length of sequence: 10
+# Enter number: 1
+# Enter number: 3
+# Enter number: 5
+# Enter number: 7
+# Enter number: 9
+# Enter number: -1
+# Enter number: 0
+# Enter number: 3
+# Enter number: 10
+# Enter number: 11
+# Your sequence: [1, 3, 5, 7, 9, -1, 0, 3, 10, 11]
+# j =  [1, 2, 3, 6, 7, 8]
