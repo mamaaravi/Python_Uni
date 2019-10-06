@@ -1,13 +1,15 @@
 # 12.	Дано матрицю A розмірності n*n  і вектор x  розмірності n . Непарні стрічки матриці A  замінити на вектор x.
 
 
-# n=int(input("Enter number of rows/columns: "))
+n=int(input("Enter number of rows/columns: "))
 
-# matrix=[list(map(int, input("(matr) Enter row: ").split())) for i in range(n)]
-# vector=list(map(int, input("(vec) Enter row: ").split()))
-# matrix=list([vector if i%2==0 else matrix[i] for i in range(n)])
+matrix=[list(map(int, input("(matr) Enter row: ").split())) for i in range(n)]
+vector=list(map(int, input("(vec) Enter row: ").split()))
+matrix=list([vector if i%2==0 else matrix[i] for i in range(n)])
 
-# print(matrix)
+print(matrix)
+
+
 # OUTPUT SAMPLE:
 # Enter number of rows/columns: 5
 # (matr) Enter row: 1 2 3 4 5
@@ -31,3 +33,11 @@ for i in range(n):
     if i%2==0:
         matrix[i]=vector
 print(matrix)
+
+# OUTPUT SAMPLE:
+# Enter number of rows/columns: 5
+# [[0 0 0 0 0]
+#  [3 3 3 3 3]
+#  [0 0 0 0 0]
+#  [3 3 3 3 3]
+#  [0 0 0 0 0]]
