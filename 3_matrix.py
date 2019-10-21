@@ -10,6 +10,7 @@ matrix=list([vector if i%2==0 else matrix[i] for i in range(n)])
 print(matrix)
 
 
+
 # OUTPUT SAMPLE:
 # Enter number of rows/columns: 5
 # (matr) Enter row: 1 2 3 4 5
