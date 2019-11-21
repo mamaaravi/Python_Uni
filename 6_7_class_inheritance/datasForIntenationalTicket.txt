@@ -1,0 +1,4 @@
+Lviv 23:34-23:59 1 Yura Synyavskiy False 12.4
+Lviv 23:34-23:59 2 Marta Kozak True 12.4
+Kyiv 17:21-23:59 4 Vasya Pupkin True 170
+Kyiv 17:21-23:59 5 Vasya Pupkin2 False 170
