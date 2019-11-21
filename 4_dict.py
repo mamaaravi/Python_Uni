@@ -34,3 +34,17 @@ def is_min(min_price):
 print("The cheapest car is", is_min(min_price))
 
 
+# OUTPUT SAMPLE:
+
+# Cars dataset:
+# {'model': 'Tesla', 'price': '100000', 'speed': '200'}
+# {'model': 'Toyota', 'price': '3000', 'speed': '100'}
+# {'model': 'Mazda', 'price': '5000', 'speed': '120'}
+# {'model': 'Smart', 'price': '2500', 'speed': '120'}
+# {'model': 'BMW', 'price': '50000', 'speed': '180'}
+# {'model': 'Mercedes', 'price': '60000', 'speed': '190'}
+# {'model': 'Peugeot', 'price': '10000', 'speed': '160'}
+# Cars with maximum speed larger than 180:
+# Tesla
+# Mercedes
+# The cheapest car is Smart
